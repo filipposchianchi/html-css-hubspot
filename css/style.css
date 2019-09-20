@@ -15,6 +15,7 @@
   background: #33475b;
   border-top: 2px solid orange;
 }
+/* CLEARFIX PRIMA RIGA HEADER */
 .first_row_header:after {
   content: "";
   display: table;
@@ -58,20 +59,20 @@
   margin-bottom: 1%;
   text-align: right;
   line-height: 30px;
-  margin-right: 10%;
+  margin-right: 8%;
 }
 .search_settings_nav ul {
   list-style-type: none;
 }
 .search_settings_nav li {
   display: inline-block;
-  margin-right: 5%;
+  margin-left: 10%;
 }
 .search_settings_nav a {
   text-decoration: none;
   color: white;
 }
-.fa-search {
+#search_icon {
   color: black;
 }
 .fa-cog{
@@ -103,17 +104,101 @@
   padding: 5px;
 }
 
-
 /* SECONDA RIGA HEADER */
 .second_row_header {
   width: 100%;
-  height: 50px;
-  background: blue;
-
+  background: #e2e2e2;
 }
+.second_row_header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.world_col {
+  width: 35%;
+  margin-left: 15%;
+  float: left;
+}
+
+.world_nav ul{
+  list-style-type: none;
+}
+.world_nav li {
+  display: inline-block;
+  margin-right: 5%;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+.world_nav a {
+  text-decoration: none;
+  color: #33475b;
+  font-size: 20px;
+}
+.a_border_right {
+  border-right: 2px solid #33475b;
+  padding-right: 15px;
+}
+
+.search_col {
+  float:left;
+  width: 35%;
+  margin-right: 15%;
+  text-align: right;
+}
+.search_nav ul {
+  list-style-type: none;
+}
+.search_nav li {
+  display: inline-block;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+.search_nav a {
+  text-decoration: none;
+}
+.fa-search {
+  color: #33475b;
+}
+#get_hubspot {
+  background: orange;
+  padding: 5px 15px;
+  color: white;
+  border: 2px solid #33475b;
+}
+
 /* TERZA RIGA HEADER */
 .third_row_header {
   width: 100%;
-  height: 50px;
-  background: green;
+}
+.third_row_header:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.logo_col{
+  width: 30%;
+  margin-left: 15%;
+  float:left;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+}
+.main_nav_col {
+  width: 35%;
+  float: right;
+  margin-right: 15%;
+  text-align: right;
+}
+.main_nav ul {
+  list-style-type: none;
+}
+.main_nav li{
+  display: inline-block;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  margin-left: 4%;
+}
+.main_nav a {
+  text-decoration: none;
+  color: #33475b
 }
