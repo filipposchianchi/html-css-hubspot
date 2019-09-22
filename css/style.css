@@ -25,6 +25,10 @@ body {
   width: 100%;
   background: #33475b;
   border-top: 2px solid orange;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+
 }
 /* CLEARFIX PRIMA RIGA HEADER */
 .first_row_header:after {
@@ -32,7 +36,6 @@ body {
   display: table;
   clear: both;
 }
-
 .img_nav {
   float: left;
   width: 5%;
@@ -119,6 +122,7 @@ body {
 .second_row_header {
   width: 100%;
   background: #e2e2e2;
+  margin-top: 4.6%;
 }
 .second_row_header:after {
   content: "";
@@ -193,9 +197,9 @@ body {
   float:left;
   margin-top: 1%;
   margin-bottom: 1%;
-
 }
 .main_nav_col {
+
   width: 35%;
   float: right;
   margin-right: 15%;
@@ -206,7 +210,7 @@ body {
 }
 .main_nav li{
   display: inline-block;
-  margin-top: 6%;
+  margin-top: 5%;
   margin-bottom: 6%;
   margin-left: 4%;
 }
@@ -224,7 +228,7 @@ body {
   position: relative;
 }
 .container_titolo {
-  width: 45%;
+  width: 50%;
   position: absolute;
   top: 30%;
   left: 15%;
@@ -234,7 +238,7 @@ body {
   font-size: 55px;
 }
 .container_sottotitolo  {
-  width: 41%;
+  width: 50%;
   position: absolute;
   top: 60%;
   left: 15%;
@@ -447,10 +451,10 @@ body {
 .prima_parte h2 {
   text-align: center;
   color: white;
-  padding-top: 10%;
+  padding-top: 8%;
 }
 .prima_parte p {
-  margin-top: 10%;
+  margin-top: 5%;
   color: white;
   text-align: center;
 }
@@ -458,7 +462,7 @@ body {
   width: 70%;
   margin-left: 15%;
   margin-right: 15%;
-  margin-top: 10%;
+  margin-top: 5%;
   color: white;
 }
 .seconda_parte:after {
@@ -622,9 +626,9 @@ body {
 /* REGOLE FOOTER */
 .container_footer {
   width: 100%;
-  height: 800px;
   background: #33475b;
   color: white;
+  padding-bottom: 2%;
 }
 .prima_riga_footer{
   margin-left: 15%;
