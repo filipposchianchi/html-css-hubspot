@@ -224,27 +224,28 @@ body {
 .second_container {
   width: 100%;
   height: 500px;
-  background: blue; /* debug*/
+  background: url(../assets/img/sfondo.png);
+  background-size: cover;
   position: relative;
 }
 .container_titolo {
   width: 50%;
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 15%;
 }
 .container_titolo h1 {
-  color: white;
+  color: #33475b;
   font-size: 55px;
 }
 .container_sottotitolo  {
-  width: 50%;
+  width: 30%;
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 15%;
 }
 .container_sottotitolo p {
-  color: white;
+  color: #33475b;
   font-size: 17px;
   margin-bottom: 10%;
 }
@@ -254,6 +255,7 @@ body {
   border-radius: 4px;
   text-decoration: none;
   font-size: 20px;
+  color: #33475b
 }
 
 /* REGOLE TERZO CONTAINER CON TRE SOTTODIV, IL TERZO CON TRE COLONNE */
@@ -291,7 +293,6 @@ body {
 }
 .second_row {
   width: 70%;
-  /* height: 270px; */
   background: white;
   margin-left: 15%;
   margin-right: 15%;
