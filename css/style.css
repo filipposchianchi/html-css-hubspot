@@ -39,8 +39,8 @@ body {
 .img_nav {
   float: left;
   width: 5%;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
   margin-left: 5%;
 }
 .img_nav ul {
@@ -49,8 +49,8 @@ body {
 .top_nav {
   float: left;
   width: 40%;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
   line-height: 30px;
 }
 .top_nav ul {
@@ -69,8 +69,8 @@ body {
 .search_settings_nav {
   float: left;
   width: 20%;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
   text-align: right;
   line-height: 30px;
   margin-right: 8%;
@@ -96,8 +96,8 @@ body {
 .user_nav {
   float: left;
   width: 20%;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  margin-top: 0.5%;
+  margin-bottom:0.5%;
   line-height: 30px;
 }
 .user_nav ul {
@@ -122,7 +122,7 @@ body {
 .second_row_header {
   width: 100%;
   background: #e2e2e2;
-  margin-top: 4.6%;
+  margin-top: 3.6%;
 }
 .second_row_header:after {
   content: "";
@@ -141,8 +141,8 @@ body {
 .world_nav li {
   display: inline-block;
   margin-right: 5%;
-  margin-top: 6%;
-  margin-bottom: 6%;
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
 .world_nav a {
   text-decoration: none;
@@ -165,8 +165,8 @@ body {
 }
 .search_nav li {
   display: inline-block;
-  margin-top: 6%;
-  margin-bottom: 6%;
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
 .search_nav a {
   text-decoration: none;
@@ -679,13 +679,13 @@ body {
   background: white;
   color: #33475b;
   padding: 10px 20px;
-  margin-left: 69%;
+  margin-left: 68%;
   border-radius: 4px;
   text-decoration: none;
 }
 .terza_riga_footer ul {
   list-style: none;
-  margin-left: 69%;
+  margin-left: 68%;
   margin-top: 2%;
 }
 .terza_riga_footer li {
