@@ -525,3 +525,83 @@ font-size: 13px;
   width: 23.3%;
   float: left;
 }
+
+/* REGOLE QUINTO CONTAINER SUDDIVISO IN DUE DIV GRANDI OGNUNO CON DUE COLONNE */
+.prima_riga {
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  margin-bottom: 8%;
+}
+.prima_riga:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.prima_colonna {
+  margin-top: 8%;
+  width: 40%;
+  float: left;
+}
+.prima_colonna h2 {
+  font-size: 30px;
+}
+.prima_colonna p {
+  font-size: 17px;
+  margin-top: 2%;
+}
+.seconda_colonna {
+  width: 50%;
+  float: left;
+  margin-top: 15%;
+  margin-left: 10%;
+}
+.prima_riga_shopify:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.prima_riga_shopify img {
+  float: left;
+}
+
+.seconda_riga {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 8%;
+}
+.seconda_riga:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.prima_col {
+  width: 49%;
+  float: left;
+  margin-right: 1%;
+}
+.prima_col h2 {
+  font-size: 30px;
+}
+.prima_col p {
+  margin-top: 5%;
+  font-size: 15px;
+  margin-bottom: 8%;
+}
+.prima_col a {
+  background: #ff7a59;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.seconda_col {
+  width: 35%;
+  margin-left: 15%;
+  float: left;
+}
+.seconda_col img {
+  width: 50%;
+  border-radius: 50%;
+}
