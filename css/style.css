@@ -4,7 +4,7 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
-  font-family: "Avenir Next LT Pro";
+  font-family: "Avenir Next LT Pro"; */
 }
 
 @font-face {
@@ -419,4 +419,109 @@ font-size: 13px;
 }
 .colonna3 p {
   font-size: 14.3px;
+}
+
+/* REGOLE BLOCCO CON SFONDO VERDE */
+.container_generale {
+  width: 100%;
+  background: #00b9a9;
+}
+.prima_parte {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.prima_parte h2 {
+  text-align: center;
+  color: white;
+  padding-top: 10%;
+}
+.prima_parte p {
+  margin-top: 10%;
+  color: white;
+  text-align: center;
+}
+.seconda_parte{
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 10%;
+  color: white;
+}
+.seconda_parte:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.prima_cella {
+  width: 23.3%;
+  float: left;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+}
+.container_img {
+  text-align: center;
+  margin-top: 15%;
+  margin-bottom: 2%;
+}
+.seconda_parte h2, .terza_parte h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 2%;
+}
+.seconda_parte p, .terza_parte p {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 10%;
+
+}
+.seconda_cella {
+  width: 23.3%;
+  float: left;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.terza_cella {
+  width: 23.3%;
+  float: left;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+}
+.quarta_cella {
+  width: 23.3%;
+  float: left;
+  border-bottom: 2px solid white;
+}
+
+.terza_parte {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: white;
+  padding-bottom: 5%;
+}
+.terza_parte:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.quinta_cella {
+  width: 23.3%;
+  float: left;
+  border-right:  2px solid white;
+}
+.sesta_cella {
+  width: 23.3%;
+  float: left;
+  border-right:  2px solid white;
+}
+.settima_cella {
+  width: 23.3%;
+  float: left;
+  border-right:  2px solid white;
+}
+.ottava_cella {
+  width: 23.3%;
+  float: left;
 }
