@@ -13,6 +13,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  color: #33475b
 }
 /* CONTENITORE GENERALE HEADER */
 .container_header {
@@ -140,8 +141,8 @@ body {
 }
 .world_nav a {
   text-decoration: none;
-  color: #33475b;
   font-size: 18px;
+  color: #33475b;
 }
 .a_border_right {
   border-right: 2px solid #33475b;
@@ -168,6 +169,7 @@ body {
 .fa-search {
   color: #33475b;
 }
+
 #get_hubspot {
   background: orange;
   padding: 5px 15px;
@@ -209,8 +211,8 @@ body {
 }
 .main_nav a {
   text-decoration: none;
+  font-size: 18px;
   color: #33475b;
-  font-size: 18px
 }
 
 /* REGOLE SECONDO CONTAINER CON IMMAGINE SFONDO E SCRITTA SOPRA */
@@ -244,33 +246,177 @@ body {
 .container_sottotitolo a {
   padding: 20px 30px;
   background: lightblue;
-  color: #33475b;
   border-radius: 4px;
   text-decoration: none;
   font-size: 20px;
 }
 
 /* REGOLE TERZO CONTAINER CON TRE SOTTODIV, IL TERZO CON TRE COLONNE */
-
+/* .third_container {
+  background: #f5f8fa;
+  width: 100%;
+} */
+.third_container {
+  background: #f5f8fa;
+  width: 100%;
+  height: 1300px;
+}
+.first_row {
+  margin-bottom: 2%;
+}
 .first_row img {
   margin-left: 40%;
   margin-right: 40%;
   width: 20%;
   margin-top: 5%;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
 }
 .first_row h2 {
-  font-size: 40px;
+  font-size: 35px;
   width: 36%;
   margin-left: 32%;
   margin-right: 32%;
-  color: #33475b;
   margin-bottom: 2%
 }
 .first_row p {
-  font-size: 20px;
-  width: 78%;
+  font-size: 17px;
+  width: 67%;
   text-align: center;
-  margin-left: 11%;
-  margin-right: 11%;
+  margin-left: 16%;
+  margin-right: 16%;
+}
+.second_row {
+  width: 70%;
+  height: 270px;
+  background: white;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.container_prima_col {
+  float: left;
+  width: 20%;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.container_prima_col img {
+  margin-bottom: 5%;
+}
+
+.container_prima_col a {
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background: #ff7a59;
+  text-decoration: none;
+  margin-left: 15%;
+}
+
+.container_seconda_col {
+  width: 55%;
+  margin-top: 5%;
+  margin-left: 10%;
+  float: left;
+}
+.container_seconda_col h2 {
+  font-size: 20px;
+}
+.container_seconda_col p {
+  margin-bottom: 5%;
+}
+.container_seconda_col h3{
+  margin-bottom: 2%;
+}
+.features {
+  margin-right: 2%;
+}
+.fa-check {
+  background: orange;
+  color: white;
+  border-radius: 50%;
+  padding: 3px;
+font-size: 13px;
+}
+
+/* REGOLE TERZA RIGA CON TRE COLONNE */
+.container_tre_colonne {
+  margin-top: 2%;
+}
+.colonna1{
+  float: left;
+  margin-left: 15%;
+  width: 20%;
+  height:530px;
+  background: white;
+}
+
+.colonna1 img, .colonna2 img{
+  margin-top: 10%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 5%;
+}
+.colonna1 h2, .colonna2 h2,.colonna3 h2 {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 2%;
+}
+
+.colonna1 p, .colonna2 p, .colonna3 p {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #33475b;
+  font-size: 15px;
+}
+
+#ul1, #ul2, #ul3{
+  margin-left: 10%;
+  margin-right: 10%;
+  list-style-type: none;
+  margin-bottom: 15%;
+}
+.colonna1 li, .colonna2 li, .colonna3 li {
+  margin-top: 8%;
+}
+.colonna1 a, .colonna2 a, .colonna3 a {
+  text-decoration: none;
+  color: white;
+  background: #ff7a59;
+  padding: 10px 20px;
+  margin-left: 28%;
+  margin-right: 28%;
+  border-radius: 4px;
+}
+
+.colonna2{
+  float: left;
+  margin-left: 5%;
+  width: 20%;
+  height:530px;
+  background: white;
+
+}
+#title1 {
+  margin-top: 10%;
+}
+
+
+.colonna3{
+  float: left;
+  margin-left: 5%;
+  margin-right: 15%;
+  width: 20%;
+  height:530px;
+  background: white;
+}
+.colonna3 img {
+  margin-top: 7%;
+  margin-left: 27%;
+  margin-right: 27%;
+  margin-bottom: 6.8%;
+}
+.colonna3 p {
+  font-size: 14.3px;
 }
