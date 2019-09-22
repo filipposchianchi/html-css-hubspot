@@ -665,6 +665,9 @@ body {
   width: 20%;
   margin-top: 5%;
 }
+.line_height {
+  line-height: 21px;
+}
 .prima_riga_footer ul {
   list-style-type: none;
 }
