@@ -23,12 +23,11 @@ body {
 /* PRIMA RIGA HEADER */
 .first_row_header {
   width: 100%;
-  background: #33475b;
+  background: #30455b;
   border-top: 2px solid orange;
   position: fixed;
   top: 0;
   z-index: 99;
-
 }
 /* CLEARFIX PRIMA RIGA HEADER */
 .first_row_header:after {
@@ -39,7 +38,7 @@ body {
 .img_nav {
   float: left;
   width: 5%;
-  margin-top: 0.5%;
+  margin-top: 0.4%;
   margin-bottom: 0.5%;
   margin-left: 5%;
 }
@@ -49,7 +48,7 @@ body {
 .top_nav {
   float: left;
   width: 40%;
-  margin-top: 0.5%;
+  margin-top: 0.6%;
   margin-bottom: 0.5%;
   line-height: 30px;
 }
@@ -69,7 +68,7 @@ body {
 .search_settings_nav {
   float: left;
   width: 20%;
-  margin-top: 0.5%;
+  margin-top: 0.6%;
   margin-bottom: 0.5%;
   text-align: right;
   line-height: 30px;
@@ -96,7 +95,7 @@ body {
 .user_nav {
   float: left;
   width: 20%;
-  margin-top: 0.5%;
+  margin-top: 0.6%;
   margin-bottom:0.5%;
   line-height: 30px;
 }
@@ -122,7 +121,7 @@ body {
 .second_row_header {
   width: 100%;
   background: #e2e2e2;
-  margin-top: 3.6%;
+  margin-top: 4%;
 }
 .second_row_header:after {
   content: "";
@@ -141,8 +140,8 @@ body {
 .world_nav li {
   display: inline-block;
   margin-right: 5%;
-  margin-top: 4%;
-  margin-bottom: 4%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 .world_nav a {
   text-decoration: none;
@@ -168,10 +167,10 @@ body {
 .dropdown-content a:hover {
   background-color: lightblue;
 }
-.world_nav:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
   display: block;
 }
-.world_nav:hover .a_border_right {
+.a_border_right:hover  {
   background-color: darkgrey;
 }
 
@@ -191,8 +190,8 @@ body {
 }
 .search_nav li {
   display: inline-block;
-  margin-top: 4%;
-  margin-bottom: 4%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 .search_nav a {
   text-decoration: none;
