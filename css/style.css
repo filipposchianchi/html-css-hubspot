@@ -142,6 +142,7 @@ body {
   margin-right: 5%;
   margin-top: 5%;
   margin-bottom: 5%;
+  padding-bottom: 5%;
 }
 .world_nav a {
   text-decoration: none;
@@ -153,7 +154,7 @@ body {
   display: none;
   position: absolute;
   background-color: white;
-  margin-top: 0.5%;
+
   width: 8%;
   z-index: 1;
   border: solid 2px lightblue;
@@ -173,7 +174,6 @@ body {
 .a_border_right:hover  {
   background-color: darkgrey;
 }
-
 .a_border_right {
   border-right: 2px solid #33475b;
   padding-right: 15px;
