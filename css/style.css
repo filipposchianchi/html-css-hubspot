@@ -149,6 +149,32 @@ body {
   font-size: 18px;
   color: #33475b;
 }
+/* DROPDOWN MENU LINGUE */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  margin-top: 0.5%;
+  width: 8%;
+  z-index: 1;
+  border: solid 2px lightblue;
+}
+.dropdown-content a {
+  color: black;
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: lightblue;
+}
+.world_nav:hover .dropdown-content {
+  display: block;
+}
+.world_nav:hover .a_border_right {
+  background-color: darkgrey;
+}
+
 .a_border_right {
   border-right: 2px solid #33475b;
   padding-right: 15px;
@@ -623,7 +649,7 @@ body {
   width: 50%;
   border-radius: 50%;
   background: #f2547d;
-  padding-top: 5px; 
+  padding-top: 5px;
 }
 
 /* REGOLE FOOTER */
