@@ -152,13 +152,12 @@ body {
   display: none;
   position: absolute;
   background-color: white;
-
   width: 8%;
   z-index: 1;
   border: solid 2px lightblue;
 }
 .dropdown-content a {
-  color: black;
+  color: #33475b;
   padding: 8px 10px;
   text-decoration: none;
   display: block;
